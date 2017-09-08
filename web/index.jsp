@@ -12,6 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <h1>Click <a href="PageGenerator.java">here</a> to see table</h1>
         <h1>Click <a href="PageGenerator2.jsp">here</a> to see table</h1>
         <h1>Click <a href="welcome.html">here</a> to go to Welcome page</h1>
     </body>

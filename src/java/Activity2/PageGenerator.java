@@ -40,7 +40,7 @@ public class PageGenerator extends HttpServlet {
             out.println("<title>Servlet PageGenerator</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<table style=\"width:100%\">");
+            out.println("<table style=\"width:100%\"");
             out.println("<h1>Name Table</h1");
             out.println("<tr>");
             out.println("<th>Firstname</th>");

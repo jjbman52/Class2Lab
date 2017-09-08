@@ -15,13 +15,9 @@ public class WelcomeService {
         
         Calendar morning = Calendar.getInstance();
         morning.set(Calendar.HOUR_OF_DAY, 12);
-        morning.set(Calendar.MINUTE, 00);
-        morning.set(Calendar.SECOND, 00);
         
         Calendar evening = Calendar.getInstance();
         evening.set(Calendar.HOUR_OF_DAY, 16);
-        evening.set(Calendar.MINUTE, 00);
-        evening.set(Calendar.SECOND, 00);
         
         if(currentDate.getTime().before(morning.getTime()) == true){
             timeOfDay = "Morning";
