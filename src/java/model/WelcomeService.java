@@ -19,9 +19,9 @@ public class WelcomeService {
         Calendar evening = Calendar.getInstance();
         evening.set(Calendar.HOUR_OF_DAY, 16);
         
-        if(currentDate.getTime().before(morning.getTime()) == true){
+        if(currentDate.getTime().before(morning.getTime())){
             timeOfDay = "Morning";
-        } else if (currentDate.getTime().after(evening.getTime()) == true){
+        } else if (currentDate.getTime().after(evening.getTime())){
             timeOfDay = "Evening";
         } else {
             timeOfDay = "Afternoon";
